@@ -12,7 +12,7 @@ message CustomerLookupModel {
 }
 
 message CustomerModel {
-	stirng firstName = 1;
+	string firstName = 1;
 	string lastName = 2;
 	string emailAddress = 3;
 	bool isAlive =4;

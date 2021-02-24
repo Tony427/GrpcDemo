@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace GrpcServer
 {
+    /// <summary>
+    /// F12 with GreeterBase u will see the hidden file. which is generate by this class.
+    /// </summary>
     public class GreeterService : Greeter.GreeterBase
     {
         private readonly ILogger<GreeterService> _logger;

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GrpcServer.Services
+namespace GrpcServer
 {
     public class CustomersService : Customer.CustomerBase
     {
